@@ -6,10 +6,8 @@ function fibonacci(num) {
   return fibonacci(num-1) + fibonacci(num - 2);
 }
 
-const nTerms = 5;  //User Input
-for(let i = 0; i < nTerms; i++) {
-    console.log(fibonacci(i));
-}
+const nTerms = 6;  //User Input
+console.log(fibonacci(nTerms));
 
 
 // program to find the balanced String
